@@ -112,12 +112,12 @@
 	}
 	
 	.user-items-list[data-space-below-section-title-value="101"] .list-item [class*=media-inner][data-aspect-ratio="original"] img {
-		min-height: unset!important;
-		height: 100%!important;
-		width: 100%!important;
+		min-height: unset;
+		height: 100%;
+		width: 100%;
 		position: absolute;
 		inset: 0;
-		object-fit: contain!important;
+		object-fit: contain;
 	}
 }
 
