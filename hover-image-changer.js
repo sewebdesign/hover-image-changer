@@ -4,7 +4,6 @@ function initHoverImageChanger() {
     const gridGap = listContainer.querySelector('.user-items-list-item-container').getAttribute('data-space-between-columns') || listContainer.querySelector('.user-items-list-item-container').getAttribute('data-space-between-slides-value') + 'px';
     listContainer.style.setProperty('--grid-gap', gridGap);
 
-    // Get timeDelay value, default to 1 if not found
     const timeDelay = listContainer.querySelector('.user-items-list-item-container').getAttribute('data-max-columns') || listContainer.querySelector('.user-items-list-item-container').getAttribute('data-num-columns');
     
     const listItems = listContainer.querySelectorAll('.list-item');
@@ -15,7 +14,6 @@ function initHoverImageChanger() {
 
     const timer = function () {
       if (timeDelay == 1) {
-        // If timeDelay is 1, do not auto-rotate
         return;
       }
       if (!document.body.classList.contains('sqs-edit-mode-active')) {
