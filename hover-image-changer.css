@@ -50,7 +50,7 @@
 		left: var(--sqs-site-gutter) !important;
 	}
 
-	.user-items-list[data-space-below-section-title-value="101"] .list-item [class*="media-inner"] {
+	.user-items-list[data-space-below-section-title-value="101"] .list-item [class*="media-inner"]:not([data-aspect-ratio="original"]) {
 		padding-bottom: 0!important;
 		height: 100% !important;
 	}
