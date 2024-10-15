@@ -107,9 +107,9 @@
 	}
 	
 	.user-items-list[data-space-below-section-title-value="101"] .list-item [class*=media-inner][data-aspect-ratio="original"] img {
-		object-fit: contain!important;
-		width: 100% !important;
-		height: 100% !important;
+		min-height: unset!important;
+		height: auto!important;
+		width: 100%!important;
 	}
 }
 
