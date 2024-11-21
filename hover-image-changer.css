@@ -2,7 +2,7 @@
 	display: none !important;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
 	.user-items-list[data-space-below-section-title-value="101"] .desktop-arrows {
 		display: none !important;
 	}
@@ -121,7 +121,7 @@
 	}
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 767px) {
 	.user-items-list[data-space-below-section-title-value="101"] .list-item {
 		padding: 0!important;
 		background: none;
