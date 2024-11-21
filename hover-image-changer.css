@@ -133,4 +133,10 @@
 	.user-items-list[data-space-below-section-title-value="101"] .list-item > [class*="media"] {
 		width: 100% !important;
 	}
+        .user-items-list[data-space-below-section-title-value="101"] .user-items-list-carousel .desktop-arrows {
+		display: none!important;
+	}
+	.user-items-list[data-space-below-section-title-value="101"] .user-items-list-carousel .mobile-arrows {
+		display: flex!important;
+	}
 }
