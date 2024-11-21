@@ -122,6 +122,9 @@
 }
 
 @media screen and (max-width: 767px) {
+	.user-items-list[data-space-below-section-title-value="101"] .user-items-list-carousel__slides, .user-items-list[data-space-below-section-title-value="101"] .user-items-list-simple {
+		grid-template-columns: 1fr;
+	}
 	.user-items-list[data-space-below-section-title-value="101"] .list-item {
 		padding: 0!important;
 		background: none;
